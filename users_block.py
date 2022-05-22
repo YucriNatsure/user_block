@@ -43,7 +43,6 @@ def get_follow(api,user):
         print(e.reason)
 
 def  get_not_mutual(list1,list2):
-    #mutual_list = set(list1) ^ set(list2)
     list3 = []
     length = len(list2)
     for f in range(length):
