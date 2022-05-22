@@ -1,1 +1,5 @@
-# user_block
+# Twitterのbioに特定のワードを含む"フォロワー"をブロックするシステム
+
+ワードを変えたかったらpattern_stringの中身をいじってください
+
+使用する場合はtoken.jsonにtokenを記述するのをお忘れなく
