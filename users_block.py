@@ -8,7 +8,7 @@ pattern_strings = re.compile(r'♡|💛|♥|💓|💖|❤|💔|💕|💙|💚|�
 
 
 try:
-    json_file= open("C:\\Users\\ryuu0\\Desktop\\auto\\token.json","r")
+    json_file= open("\\token.json","r")
     json_obj = json.load(json_file)
     AP = json_obj['twitter_token']['api_key']
     APS = json_obj['twitter_token']['secret_key']
